@@ -2,9 +2,9 @@ import React from 'react';
 //Form component:
 const Form = ({children}) => {
     return (
-        <React.Fragment>
+        <form>
             {children}
-        </React.Fragment>
+        </form>
     )
 };
 export default Form;
